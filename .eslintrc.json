@@ -1,3 +1,10 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next/core-web-vitals",
+    "./node_modules/standard/eslintrc.json"  //<- trae la configuracion de standard
+  ],
+  "rule": {
+    "space-before-function-paren": "on"    //<- espacio antes de la funcion
+  }
 }
+
