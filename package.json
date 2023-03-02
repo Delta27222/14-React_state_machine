@@ -1,4 +1,5 @@
 {
+  "homepage":"https://Delta27222.github.io/React_state_machine",
   "name": "react_state_machine",
   "version": "0.1.0",
   "private": true,
@@ -6,7 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@xstate/react": "^3.2.1",
